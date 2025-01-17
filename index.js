@@ -10,20 +10,20 @@
 
 
 // Магазин
-let sum = prompt("Введите сумму покупки")
-let percent = 0
-if(sum >= 1000 && sum < 5000) {
-    let percent = 10
-    let percent_sum = sum * percent / 100
-    let total_sum = sum - percent_sum
-    alert(`Итоговая стоимость покупки с учётом скидки в ${percent + '%'} составляет: ${total_sum} сомов`);
-}else {
-    let percent = 20
-    let percent_sum = sum * percent / 100
-    let total_sum = sum - percent_sum
+// let sum = prompt("Введите сумму покупки")
+// let percent = 0
+// if(sum >= 1000 && sum < 5000) {
+//     let percent = 10
+//     let percent_sum = sum * percent / 100
+//     let total_sum = sum - percent_sum
+//     alert(`Итоговая стоимость покупки с учётом скидки в ${percent + '%'} составляет: ${total_sum} сомов`);
+// }else {
+//     let percent = 20
+//     let percent_sum = sum * percent / 100
+//     let total_sum = sum - percent_sum
 
-    alert(`Итоговая стоимость покупки с учётом скидки в ${percent + '%'} составляет: ${total_sum} сомов`);
-}
+//     alert(`Итоговая стоимость покупки с учётом скидки в ${percent + '%'} составляет: ${total_sum} сомов`);
+// }
 
 
 // function calculateTotal(amount) {
